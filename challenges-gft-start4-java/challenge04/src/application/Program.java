@@ -9,6 +9,13 @@ public class Program {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
+        double pi = 3.14159;
+        System.out.println("Enter with radius: ");
+        double radius = sc.nextDouble();
+
+        double area = pi * Math.pow(radius, 2.0);
+
+        System.out.printf("A = %.4f", area);
 
         sc.close();
     }
